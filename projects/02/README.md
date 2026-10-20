@@ -126,3 +126,14 @@ Options:
 Enter your choice: 5
 Exiting...
 ```
+
+## Specification
+
+| Grade | Tasks |
+| ------ | -------- |
+| A+ | <ul><li>Everything from A</li><li>Code runs without errors</li><li>At least 3 additional fields for a note have been added (you decide and add to the reflection if you choose to add additional fields)</li></ul>|
+| A | <ul><li>Everything from B</li><li>All functions implemented</li><li>Main implemented fully</li></ul>|
+| B |<ul><li>Everything from C</li><li>3 Note functions implemented</li></ul>|
+| C |<ul><li>Reflection answered fully</li><li>2 Note functions implemented</li></ul> |
+| D | <ul><li>Attempt made</li><li>Reflection approached</li></ul> |
+| F | No attempt made. |
