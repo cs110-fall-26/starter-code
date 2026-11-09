@@ -1,0 +1,10 @@
+1. If you added additional fields, what were those fields?
+
+2. In your own words, explain the process of saving and loading data in this program. How does it work?
+
+3. As usual, how did you approach the project? What did your process look like?
+
+4. If we remove the load_users function, explain the impact on the code and the project itself.
+
+5. Is there anything you wish you could've changed or added to this to make it more helpful for yourself as a note taking program?
+
