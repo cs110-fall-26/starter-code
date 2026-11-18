@@ -8,7 +8,7 @@ Let's introduce Web Design with HTML and CSS first!
 
 ### Instructions
 
-1. Start with the `index.html`. Start by adding some text tags about yourself. Replace the contents of the h0 tag with your name. Add a description below in a &lt;p&gt; tag &lt;/p&gt;. Add a list about your hobbies below using the &lt;ul&gt; then &lt;li&gt; tags. Alternatively, you may also use &lt;ol&gt; followed up by &lt;li&gt; tags for ordered, numbered lists. Add an image using the &lt;img&gt; tag. Add links to some websites using the &lt;a href="url here"&gt; pattern.
+1. Start with the `index.html`. Start by adding some text tags about yourself. Replace the contents of the h1 tag with your name. Add a description below in a &lt;p&gt; tag &lt;/p&gt;. Add a list about your hobbies below using the &lt;ul&gt; then &lt;li&gt; tags. Alternatively, you may also use &lt;ol&gt; followed up by &lt;li&gt; tags for ordered, numbered lists. Add an image using the &lt;img&gt; tag. Add links to some websites using the &lt;a href="url here"&gt; pattern.
 2. Next, move to the `styles.css` file. Add some styles to make the page more appealing and attractive.
 
 ### Resources
