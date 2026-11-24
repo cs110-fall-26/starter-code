@@ -1,0 +1,77 @@
+body {
+  padding: 0 10pt;
+   background-color: rgb(146, 214, 255);
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.project_view {
+  text-decoration: none;
+}
+
+.new_project_form {
+  padding: 10pt 10pt;
+  border: 1pt solid black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10pt;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+input {
+  font-size: 1.25rem;
+  width: calc(100% - 10pt);
+}
+
+textarea {
+  font-size: 1.25rem;
+  width: calc(100% - 10pt);
+}
+
+.btn {
+  padding: 10pt 20pt;
+  border-radius: 10pt;
+  outline: none;
+  border: none;
+  color: #f8f8f8;
+}
+
+.primary-btn {
+  background-color: rgb(59, 71, 160);
+}
+
+.primary-btn:hover {
+  background-color: rgb(105, 120, 234);
+}
+.delete-btn {
+  background-color: rgb(160, 59, 60);
+  width: fit-content;
+}
+.delete-btn:hover {
+  background-color: rgb(142, 57, 58);
+}
+
+nav {
+ display: flex;
+ flex-direction: row;
+ column-gap: 20pt;
+ padding: 10pt 10pt;
+ color: #f8f8f8;
+}
+
+nav > a {
+  text-decoration: none;
+  border-radius: 5pt;
+  background-color: rgb(157, 183, 226);
+  padding: 4pt 8pt;
+  color: #000;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <link href="{{ url_for('styles', path='/styles.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects">Projects</a>
+    </nav>
+    <h1>Projects</h1>
+    <details>
+      <summary>Open New Project Form</summary>
+      <br />
+      <form action="/projects/new" method="POST" class="new_project_form">
+        <div>
+          <label for="project_name">Project name:</label>
+          <input name="project_name">
+        </div>
+        <div>
+          <label for="project_description">Description</label>
+          <textarea name="project_description" rows="5" ></textarea>
+        </div>
+        <input type="submit" class="btn primary-btn">
+      </form>
+    </details>
+    <p class="heading">Project List</p>
+    {% if projects|length > 0 %}
+    <ul>
+      {% for project in projects %}
+      <li><span class="project_name">{{ project.name }}</span>: <span class="project_desc">{{ project.description }}</span> <a class="project_view" href="/project/{{ project.id }}">></a></li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No projects!</p>
+    {% endif %}
+  </body>
+</html>
